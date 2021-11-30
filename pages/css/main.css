@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap");
+* {
+  text-align: center;
+  font-family: "Tajawal", sans-serif;
+  background-color: #424949;
+  color: #ffff;
+  padding: 0px;
+  margin: 0px auto;
+}
+body {
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+a {
+  text-decoration: none;
+}
+hr {
+  width: 15%;
+  opacity: 0.2;
+}
+img {
+  height: 250px;
+  border-radius: 50%;
+  box-shadow: 10px 10px 5px #363b3b;
+  -moz-box-shadow: 10px 10px 5px #363b3b;
+  -webkit-box-shadow: 10px 10px 5px #363b3b;
+  -khtml-box-shadow: 10px 10px 5px #363b3b;
+}
+.profile_picture {
+  margin-top: 40px;
+}
+.location {
+  padding: 10px;
+  opacity: 0.5;
+  user-select: none;
+}
+.name {
+  font-size: 30px;
+  user-select: none;
+}
+.discription {
+  padding: 10px;
+}
+.social-media {
+  padding: 20px 15px;
+  margin: 0px auto;
+  display: block;
+  width: 65%;
+  margin: 0px auto;
+  user-select: none;
+}
+.instagram {
+  border: 1px solid #646d6d;
+  border-radius: 15px;
+  background: #646d6d;
+  font-size: 25px;
+  padding: 20px 20px;
+  margin: 5px auto;
+  color: white;
+  display: inline-block;
+  width: 30%;
+}
+.instagram:hover {
+  background: #c13584;
+  border-color: #c13584;
+}
+.snapchat {
+  border: 1px solid #646d6d;
+  border-radius: 15px;
+  background: #646d6d;
+  font-size: 25px;
+  padding: 20px 20px;
+  margin: 5px auto;
+  display: inline-block;
+  color: white;
+  width: 30%;
+}
+.snapchat:hover {
+  background: #ffd700;
+  border-color: #ffd700;
+}
+.telegram {
+  border: 1px solid #646d6d;
+  border-radius: 15px;
+  background: #646d6d;
+  font-size: 25px;
+  padding: 20px 20px;
+  margin: 5px auto;
+  display: inline-block;
+  color: white;
+  width: 30%;
+}
+.telegram:hover {
+  background: #0088cc;
+  border-color: #0088cc;
+}
+.twitter {
+  border: 1px solid #646d6d;
+  border-radius: 15px;
+  background: #646d6d;
+  font-size: 25px;
+  padding: 20px 20px;
+  margin: 5px auto;
+  display: inline-block;
+  color: white;
+  width: 30%;
+}
+.twitter:hover {
+  background: #1da1f2;
+  border-color: #1da1f2;
+}
+.footer {
+  padding: 10px 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+.social-media a{
+    position:relative;
+    opacity: 0;
+    transition-property: all;
+}
+.social-media a.active{
+    opacity: 1;
+    top:0px !important;
+}
+@media only screen and (max-width: 320px) {
+  img {
+    height: 150px;
+  }
+  .name {
+    font-size: 25px;
+  }
+  .instagram {
+    font-size: 0px;
+  }
+  .snapchat {
+    font-size: 0px;
+  }
+  .telegram {
+    font-size: 0px;
+  }
+  .twitter {
+    font-size: 0px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  img {
+    height: 150px;
+  }
+  .name {
+    font-size: 25px;
+  }
+  .instagram {
+    font-size: 15px;
+    text-align: center;
+  }
+  .snapchat {
+    font-size: 15px;
+    text-align: center;
+  }
+  .telegram {
+    font-size: 15px;
+    text-align: center;
+  }
+  .twitter {
+    font-size: 15px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 570px) {
+  img {
+    height: 160px;
+  }
+  .name {
+    font-size: 25px;
+  }
+  .instagram {
+    font-size: 0px;
+    text-align: center;
+  }
+  .snapchat {
+    font-size: 0px;
+    text-align: center;
+  }
+  .telegram {
+    font-size: 0px;
+    text-align: center;
+  }
+  .twitter {
+    font-size: 0px;
+    text-align: center;
+  }
+}
+@media only screen and (width: 768px) {
+  img {
+    height: 190px;
+  }
+  .name {
+    font-size: 30px;
+  }
+  .instagram {
+    font-size: 0px;
+  }
+  .snapchat {
+    font-size: 0px;
+  }
+  .telegram {
+    font-size: 0px;
+  }
+  .twitter {
+    font-size: 0px;
+  }
+}
