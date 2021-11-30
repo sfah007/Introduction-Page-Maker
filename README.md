@@ -15,11 +15,11 @@
 
 > **Setup the api**
 ```
-$Upload the flask api on your host
+Upload the flask api on your host
 ```  
 > **Setup requirements**
 ```
-$Make pages file on your host and upload the css and js and img file on it
+Make pages file on your host and upload the css and js and img file on it
 ```  
 > **install requirements for the bot**
 ```
