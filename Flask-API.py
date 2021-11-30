@@ -8,16 +8,16 @@ def makenewpage():
 
     name = str(request.args.get('name'))
     discription = str(request.args.get('discription'))
+    locashion = str(request.args.get('locashion'))
 
     instagram = str(request.args.get('instagram'))
     snapchat = str(request.args.get('snapchat'))
     telegram = str(request.args.get('telegram'))
     twitter = str(request.args.get('twitter'))
-    locashion = str(request.args.get('locashion'))
 
-
-    abcd = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'
-    the_ran_name = random.choice(abcd) + random.choice(abcd) + random.choice(abcd) + random.choice(abcd) + random.choice(abcd) + random.choice(abcd) + + random.choice(abcd) + random.choice(abcd) + '.html'
+    nums = '1234567890'
+    abcd = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    the_ran_name = random.choice(abcd) + random.choice(abcd) + random.choice(abcd) + random.choice(abcd) + random.choice(nums) + random.choice(nums) +  random.choice(nums) + random.choice(abcd) + '.html'
 
     data = f'''
 <!DOCTYPE html>
@@ -42,7 +42,7 @@ def makenewpage():
                         <i class="fab fa-instagram" style="background:none;font-size:25px;"></i> INSTAGRAM
                     </div>
                 </a>
-                <a href="https://snapchat.com/{snapchat}" target="_blank" style="top: -100px;transition-duration:0.5s;">
+                <a href="https://www.snapchat.com/add/{snapchat}" target="_blank" style="top: -100px;transition-duration:0.5s;">
                     <div class="snapchat">
                         <i class="fab fa-snapchat" style="background:none;font-size:25px;"></i> SNAPCHAT
                     </div>
